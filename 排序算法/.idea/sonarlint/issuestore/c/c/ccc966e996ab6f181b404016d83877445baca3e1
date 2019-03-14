@@ -1,0 +1,13 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…“Û„ü,
+squid:S3008"cRename this field "LETV_SSO_PORTAL_APP_SITE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°­«œ8…“Û„ü,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…“Û„ü,
+€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8…“Û„ü,
+~squid:S3008"bRename this field "LETV_SSO_PORTAL_APP_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ììäı8…“Û„ü,
+squid:S3008"eRename this field "LETV_SSO_TRANSCODE_API_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÅ®¬8…“Û„ü,
+[squid:S1854":Remove this useless assignment to local variable "userid".(û¥ıüÿÿÿÿ8…“Û„ü,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…“Û„ü,
+€squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8…“Û„ü,
+Lsquid:S1481"+Remove this unused "userid" local variable.(û¥ıüÿÿÿÿ8…“Û„ü,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ˆ¶’é8…“Û„ü,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8…“Û„ü,
