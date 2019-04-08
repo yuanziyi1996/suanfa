@@ -1,5 +1,7 @@
 
-hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ÆàÒúÿÿÿÿ
-Xsquid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ
-Rsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
->squid:S2129"$Remove this "BigInteger" constructor(—ç¥Ëıÿÿÿÿ
+Tsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
+Zsquid:UselessImportCheck"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶ÆàÒúÿÿÿÿ
+@squid:S2129"$Remove this "BigInteger" constructor(—ç¥Ëıÿÿÿÿ
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûí·—ıÿÿÿÿ8Ñ¸ƒ‡˜-
