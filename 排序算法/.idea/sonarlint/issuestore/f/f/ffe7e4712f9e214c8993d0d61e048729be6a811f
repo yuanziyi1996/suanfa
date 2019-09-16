@@ -1,8 +1,8 @@
 
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óËÌ¥
+[squid:UselessImportCheck"+Remove this unused import 'org.junit.Test'.(ùžøèøÿÿÿÿ8ÛŽ‹¨™-
+6squid:S1659("Declare "j" on a separate line.(äÿØ®
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠìÍ–
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(åíáæûÿÿÿÿ
-fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠìÍ–
-[squid:UselessImportCheck"+Remove this unused import 'org.junit.Test'.(ùžøèøÿÿÿÿ8ÛŽ‹¨™-
 esquid:S00100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‹ú2
-esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óËÌ¥
-6squid:S1659("Declare "j" on a separate line.(äÿØ®

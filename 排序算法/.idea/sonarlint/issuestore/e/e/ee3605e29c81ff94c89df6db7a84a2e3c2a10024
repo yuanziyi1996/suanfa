@@ -1,7 +1,14 @@
 
-Hsquid:S1612",Replace this lambda with a method reference.(Êùî8ä•€«ü,
-ksquid:S3008"ORename this field "map_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìêÈ½8ä•€«ü,
-Msquid:S1612",Replace this lambda with a method reference.(ïğâËüÿÿÿÿ8ä•€«ü,
-Hsquid:S1612",Replace this lambda with a method reference.(Êùî8ä•€«ü,
-lsquid:S1192"KDefine a constant instead of duplicating this literal "heroku.com" 3 times.(ÖØ¥©ûÿÿÿÿ8ä•€«ü,
-|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼¸åÒÿÿÿÿÿ8ä•€«ü,
+Osquid:S1612!",Replace this lambda with a method reference.(ïğâËüÿÿÿÿ8ä•€«ü,
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼¸åÒÿÿÿÿÿ8ä•€«ü,
+nsquid:S1192"KDefine a constant instead of duplicating this literal "heroku.com" 3 times.(ÖØ¥©ûÿÿÿÿ8ä•€«ü,
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ–ŸY8²Èé-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ì” Õ8²Èé-
+Jsquid:S1612'",Replace this lambda with a method reference.(Êùî8ä•€«ü,
+Jsquid:S1612'",Replace this lambda with a method reference.(Êùî8ä•€«ü,
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8²Èé-
+msquid:S3008
+"ORename this field "map_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìêÈ½8ä•€«ü,
