@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+@Data //这个用于提供get 和 Set方法
 //加上了builder这个注解以后，就不用再书写getter和setter方法了 使用方式是 builder().id(XXXX).build()这样的方法
 @Builder
 @AllArgsConstructor

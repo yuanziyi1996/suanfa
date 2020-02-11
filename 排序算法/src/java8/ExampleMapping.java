@@ -25,7 +25,6 @@ public class ExampleMapping {
     Map<String, List<Person>> collect = personList.stream().collect(Collectors.groupingBy(c -> c.getAddress()));
     System.out.println(collect);
     Person person = null;
-    person.setAddress("1");
     Person person1=Person.builder().build();
     System.out.println(person);
     System.out.println(person1);

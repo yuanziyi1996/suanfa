@@ -2,6 +2,7 @@ package java8;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class ExampleMap {
 
@@ -16,6 +17,11 @@ public class ExampleMap {
     items.put("F", 60);
   }
 
+  public static void java8遍历map(Map<String, Integer> items){
+    System.out.println("java8遍历map");
+    items.forEach((key,value)-> System.out.println("key:" + key + " value:" + value));
+  }
+
   public static void main(String[] args) {
 
     //Java8之前遍历是这样遍历map
@@ -24,9 +30,15 @@ public class ExampleMap {
     }
 
     //Java8遍历map
-    System.out.println("java8遍历map");
-    items.forEach((key,value)-> System.out.println("key:" + key + " value:" + value));
+    java8遍历map(items);
 
+
+    //使用entryset 修改内容
+    items.entrySet().stream().filter(entry-> entry.getValue()>30).collect(Collectors.toSet()).forEach(field ->{
+      System.out.println(field);
+      field.setValue(100);
+    });
+    java8遍历map(items);
 
   }
 

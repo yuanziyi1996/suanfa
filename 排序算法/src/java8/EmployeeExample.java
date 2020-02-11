@@ -80,5 +80,9 @@ public class EmployeeExample {
       .average();
     System.out.println("New York办公室平均工资:" + averageSalaryByOffice+'\n');
 
+   employeeList.stream().filter(employee -> employee.getOffice().equals("New " +
+      "York111")).filter(employee -> employee.getName().equals("Peter")).collect(Collectors.toList()).forEach(employee -> employee.setSalary(123456));
+    System.out.println(employeeList);
+
   }
 }
