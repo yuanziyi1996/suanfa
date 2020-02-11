@@ -1,8 +1,0 @@
-
-lsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿çù¬8„“Û„ü,
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÖÒşÿÿÿÿ8„“Û„ü,
-osquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(İÖÒşÿÿÿÿ8„“Û„ü,
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‰»8…îı†˜-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(—éÛ8…îı†˜-

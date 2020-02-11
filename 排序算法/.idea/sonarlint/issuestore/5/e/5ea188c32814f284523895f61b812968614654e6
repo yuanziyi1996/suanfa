@@ -1,23 +1,0 @@
-
-[
-squid:S106m"9Replace this use of System.out or System.err by a logger.(íä‚¢ÿÿÿÿÿ8ô›Ç‡˜-
-Vsquid:S1197;"8Move the array designator from the variable to the type.(ÜåÙí8ô›Ç‡˜-
-qsquid:S11927"NDefine a constant instead of duplicating this literal "çº¿ç¨‹æ•°é‡:" 3 times.(¬› Ñùÿÿÿÿ8ô›Ç‡˜-
-|squid:S1192!"YDefine a constant instead of duplicating this literal "typeç­‰äº2çš„ä¸ªæ•°æœ‰:" 4 times.(©Ø«şÿÿÿÿ8ô›Ç‡˜-
-tsquid:S3008"VRename this field "LIST_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶èÁ8áå‡˜-
-Fsquid:S1604?"(Make this anonymous inner class a lambda(ëÛğ8ô›Ç‡˜-
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šğœİ
-osquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(º™Ú78ô›Ç‡˜-
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(©Ø«şÿÿÿÿ8áå‡˜-
-Ksquid:S1604)"(Make this anonymous inner class a lambda(ß‚»Òøÿÿÿÿ8áå‡˜-
-esquid:S00101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù‡
-Fsquid:S1604["(Make this anonymous inner class a lambda(’õ˜Ù8ô›Ç‡˜-
-usquid:S3008"WRename this field "SLICE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÿª¯8áå‡˜-
-[
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(¿íÃ®øÿÿÿÿ8ô›Ç‡˜-
-{squid:S3008"XRename this field "THREAD_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßªœôøÿÿÿÿ8áå‡˜-
-[
-squid:S1067"9Replace this use of System.out or System.err by a logger.(¬› Ñùÿÿÿÿ8áå‡˜-
-ssquid:S1192!"PDefine a constant instead of duplicating this literal " milliseconds, " 4 times.(©Ø«şÿÿÿÿ8ô›Ç‡˜-

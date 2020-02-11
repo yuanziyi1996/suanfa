@@ -1,7 +1,10 @@
 package java8;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ExampleList {
   private static List<String> items = new ArrayList<>();
@@ -12,9 +15,13 @@ public class ExampleList {
     items.add("C");
     items.add("BD");
     items.add("E");
+    items.add("A");
   }
 
   public static void main(String[] args) {
+    System.out.println(items);
+    List<String> out = items.stream().distinct().collect(Collectors.toList());
+    System.out.println(out);
     //Java8之前操作List
     for(String item:items){
       System.out.println(item);
