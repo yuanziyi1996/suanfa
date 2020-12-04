@@ -1,6 +1,5 @@
 package NIO和IO;
 
-import java.io.File;
 import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;

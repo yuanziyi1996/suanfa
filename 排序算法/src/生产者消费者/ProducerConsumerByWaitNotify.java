@@ -2,7 +2,6 @@ package 生产者消费者;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Random;
 
 public class ProducerConsumerByWaitNotify {
     private static final int CAPACITY = 5;

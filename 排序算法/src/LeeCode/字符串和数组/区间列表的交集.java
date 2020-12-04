@@ -3,8 +3,9 @@ package LeeCode.字符串和数组;
 import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @Data
 @Builder

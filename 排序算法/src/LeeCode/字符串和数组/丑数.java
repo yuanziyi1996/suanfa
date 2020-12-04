@@ -4,8 +4,9 @@ public class 丑数 {
     //判断是不是丑数
     public static boolean isUglyNumber(int num){
 
-        if(num==1)
+        if(num==1) {
             return true;
+        }
         if(num%2==0){
             return isUglyNumber(num/2);
         }

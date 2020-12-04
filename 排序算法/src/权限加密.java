@@ -1,5 +1,3 @@
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.math.BigInteger;
 
 public class 权限加密 {

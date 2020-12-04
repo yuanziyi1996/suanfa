@@ -1,37 +1,29 @@
 package LeeCode.树;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Stack;
 
-public class 二叉树的深度 {
+public class 二叉树深度优先遍历_可以得到总节点数 {
+    //思路是肯定是要利用栈来思考问题然后先要把右子树放入占中，因为先进先出。所以左边的现出来。
     public static int TreeDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        //当前行的最后一个节点——初始值
-        TreeNode last = root;
-        //下一行的最后一个节点值
-        TreeNode nlast = null;
-        int depth = 0;
-        while (!queue.isEmpty()) {
-            TreeNode cur = queue.poll();
-
-            if (cur.left != null) {
-                queue.offer(cur.left);
-                nlast = cur.left;
-            }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        int length = 1;
+        while (!stack.isEmpty()) {
+            TreeNode cur = stack.pop();
+            System.out.println(cur.val);
             if (cur.right != null) {
-                queue.offer(cur.right);
-                nlast = cur.right;
+                stack.push(cur.right);
+                length++;
             }
-            if (cur == last) {
-                depth++;
-                last = nlast;
+            if (cur.left != null) {
+                stack.push(cur.left);
+                length++;
             }
         }
-        return depth;
+        return length;
     }
 
     public static void main(String[] args) {
@@ -51,6 +43,6 @@ public class 二叉树的深度 {
         root.right.right = new TreeNode(6);
         root.right.left.left = new TreeNode(7);
         root.right.left.right = new TreeNode(8);*/
-        System.out.println(TreeDepth(root));
+        System.out.println("result = " + TreeDepth(root));
     }
 }

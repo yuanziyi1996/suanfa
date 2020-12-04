@@ -4,8 +4,6 @@ package Json;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-
 
 /**
  * 实例实现利用jackson实现实体对象与json字符串的互相转换
